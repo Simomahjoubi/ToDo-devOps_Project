@@ -1,0 +1,6 @@
+flask
+flask-cors
+flask-sqlalchemy
+pyjwt
+prometheus-flask-exporter
+werkzeug
