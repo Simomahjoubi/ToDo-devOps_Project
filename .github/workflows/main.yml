@@ -65,7 +65,7 @@ jobs:
 
   # ÉTAPE 4 : MERGE AUTOMATIQUE VERS MAIN
   merge-to-main:
-    needs: build
+    needs: build-and-push
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
