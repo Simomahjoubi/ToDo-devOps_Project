@@ -18,8 +18,15 @@ jobs:
           
       - name: Install Backend Dependencies
         run: |
-          pip install -r backend/requirements.txt
+          cd backend
+          pip install -r requirements.txt
+          pip install pytest
           # Ajoutez vos commandes de tests ici (ex: pytest)
+
+      - name: Run Backend Tests
+        run: |
+          cd backend
+          python -m pytest test_app.py
 
   # ÉTAPE 2 : BUILD DOCKER (Vérification que ça compile)
   # build:

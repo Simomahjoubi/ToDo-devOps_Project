@@ -273,7 +273,7 @@ function App() {
     return (
       <div className="App">
         <div className="auth-container">
-          <h1>📝 TodoListttttt</h1>
+          <h1>📝 TodoList</h1>
           <div className="auth-toggle">
             <button
               className={showLogin ? 'active' : ''}
