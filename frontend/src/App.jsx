@@ -342,7 +342,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="header">
-          <h1>📝 Ma TodoList</h1>
+          <h1>📝 Ma TodoListsimo</h1>
           <div className="user-info">
             <span>Bienvenue, {currentUser?.username}!</span>
             <button onClick={handleLogout} className="logout-button">
